@@ -19,13 +19,13 @@ const HeroSection = () => {
                         sequence={[
                         // Same substring at the start will only be typed out once, initially
                         'Shreyans',
-                        1000, // wait 1s before replacing each item
+                        2000, // wait 1s before replacing each item
                         'A Student at UWaterloo',
-                        1000,
-                        'A Software Engineer',
-                        1000,
+                        2000,
+                        'A Aspiring Software Engineer',
+                        2000,
                         'A Football Fan',
-                        1000
+                        2000
                     ]}
                         wrapper="span"
                         speed={50}
@@ -34,9 +34,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-white text-base sm:text-lg mb-6 lg:text-xl'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed convallis libero bibendum, dapibus sem ut, ultricies ex. 
-                    Aliquam ligula nisi, scelerisque faucibus congue eget, malesuada sodales turpis.
+                    I am currently looking for a Summer 2024 internship, specifically backend roles but am open to anything.
                 </p> 
                 <div>
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black'>LinkedIn</button>
